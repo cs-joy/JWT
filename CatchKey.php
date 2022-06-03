@@ -7,6 +7,7 @@ use Firebase\JWT\JWT;
 
 // The URI for the JWKS you wish to cache the results from
 $jwksUri = 'https://www.gstatic.com/iap/verify/public_key-jwk';
+/*
 
 // Create an HTTP client (can be any PSR-7 compatible HTTP client)
 $httpClient = new GuzzleHttp\Client();
@@ -28,5 +29,6 @@ $keySet = new CachedKeySet(
 
 $jwt = 'eyJhbGci...'; // Some JWT signed by a key from the $jwkUri above
 $decoded = JWT::decode($jwt, $keySet);
+*/
 
 ?>
